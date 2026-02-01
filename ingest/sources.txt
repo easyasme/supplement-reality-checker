@@ -1,0 +1,3 @@
+nih_ods_magnesium|https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+nih_ods_vitamin_d|https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/
+nih_ods_omega3|https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/
