@@ -1,0 +1,549 @@
+{
+  "summary": {
+    "variant": "A",
+    "n_tests": 12,
+    "accuracy": 0.5,
+    "avg_citation_hit_rate": 1.0,
+    "flag_rate": 0.0
+  },
+  "results": [
+    {
+      "id": "t01",
+      "claim": "Omega-3 supplements can lower triglyceride levels.",
+      "expected": "Supported",
+      "pred": "Supported",
+      "is_correct": true,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "Supported",
+        "short_reason": "Several studies, including the Japan EPA Lipid Intervention Study (2007) and the Outcome Reduction with an Initial Glargine Intervention (ORIGIN) trial (2012), found that omega-3 supplements lower triglyceride levels.",
+        "citations": [
+          "nih_ods_omega3::chunk_31",
+          "nih_ods_omega3::chunk_21"
+        ],
+        "confidence": 0.8
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_omega3::chunk_29",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7721502780914307
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_30",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7446244955062866
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_31",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.730048656463623
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_19",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7295305728912354
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_21",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7055341005325317
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "claim": "Omega-3 supplements cure depression.",
+      "expected": "Unknown",
+      "pred": "NotSupported",
+      "is_correct": false,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "NotSupported",
+        "short_reason": "A 2015 Cochrane Review of 26 studies found insufficient evidence to determine whether omega-3s are beneficial for major depressive disorder in adults.",
+        "citations": [
+          "nih_ods_omega3::chunk_68"
+        ],
+        "confidence": 0.8
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_omega3::chunk_67",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7574701309204102
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_68",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6882809400558472
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_116",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.5998088121414185
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_108",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.5936051607131958
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_28",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.58895343542099
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "claim": "Vitamin D prevents all cancers.",
+      "expected": "Unknown",
+      "pred": "NotSupported",
+      "is_correct": false,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "NotSupported",
+        "short_reason": "Studies do not indicate that vitamin D with or without calcium supplementation reduces the incidence of cancer, but adequate or higher 25(OH)D levels might reduce cancer mortality rates.",
+        "citations": [
+          "nih_ods_vitamin_d::chunk_53",
+          "nih_ods_vitamin_d::chunk_97"
+        ],
+        "confidence": 0.5
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_42",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7477867603302002
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_44",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7323338985443115
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_53",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7160855531692505
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_97",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7140815258026123
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_98",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7132391333580017
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "claim": "Vitamin D supports bone health.",
+      "expected": "Supported",
+      "pred": "Supported",
+      "is_correct": true,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "Supported",
+        "short_reason": "Vitamin D supplements may increase bone mineral density in some postmenopausal women and older men, and help reduce fracture rates.",
+        "citations": [
+          "nih_ods_vitamin_d::chunk_33",
+          "nih_ods_vitamin_d::chunk_95"
+        ],
+        "confidence": 0.8
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_1",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7892405390739441
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_35",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7533962726593018
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_33",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7440374493598938
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_95",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7418429851531982
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_56",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7409310936927795
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "claim": "Magnesium supplement helps improve sleep quality and reduces anxiety.",
+      "expected": "Unknown",
+      "pred": "NotSupported",
+      "is_correct": false,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "NotSupported",
+        "short_reason": "Limited evidence on sleep quality and no direct mention of anxiety reduction.",
+        "citations": [
+          "nih_ods_magnesium::chunk_16",
+          "nih_ods_magnesium::chunk_28"
+        ],
+        "confidence": 0.0
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_16",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.6162577271461487
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_28",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.6006456017494202
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_24",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.5988245010375977
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_27",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.5743459463119507
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_26",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.568946361541748
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "claim": "Magnesium is involved in muscle and nerve function.",
+      "expected": "Supported",
+      "pred": "Supported",
+      "is_correct": true,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "Supported",
+        "short_reason": "Magnesium is a cofactor in more than 300 enzyme systems that regulate diverse biochemical reactions, including muscle and nerve function.",
+        "citations": [
+          "nih_ods_magnesium::chunk_0",
+          "nih_ods_magnesium::chunk_1"
+        ],
+        "confidence": 1.0
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_0",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7724811434745789
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_1",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.6051619052886963
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_27",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.5797114372253418
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_26",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.5781328082084656
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_25",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.5773520469665527
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "claim": "Omega-3 supplements eliminate arrhythmia risk completely.",
+      "expected": "Unknown",
+      "pred": "NotSupported",
+      "is_correct": false,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "NotSupported",
+        "short_reason": "The evidence does not support the claim that omega-3 supplements eliminate arrhythmia risk completely.",
+        "citations": [
+          "nih_ods_omega3::chunk_29",
+          "nih_ods_omega3::chunk_23"
+        ],
+        "confidence": 1.0
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_omega3::chunk_29",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7261714935302734
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_23",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6605883836746216
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_93",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6564674973487854
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_19",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6547289490699768
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_26",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6356697678565979
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "claim": "Vitamin D deficiency is linked to bone problems.",
+      "expected": "Supported",
+      "pred": "Supported",
+      "is_correct": true,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "Supported",
+        "short_reason": "Vitamin D deficiency can lead to osteoporosis, which is characterized by low bone mass and structural deterioration of bone tissue that increases bone fragility and the risk of bone fractures.",
+        "citations": [
+          "nih_ods_vitamin_d::chunk_35",
+          "nih_ods_vitamin_d::chunk_34"
+        ],
+        "confidence": 0.8
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_35",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7476849555969238
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_26",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7331990003585815
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_1",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7266983985900879
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_34",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.7053669691085815
+        },
+        {
+          "chunk_id": "nih_ods_vitamin_d::chunk_25",
+          "doc_id": "nih_ods_vitamin_d",
+          "score": 0.6972472071647644
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "claim": "Magnesium cures diabetes.",
+      "expected": "Unknown",
+      "pred": "NotSupported",
+      "is_correct": false,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "NotSupported",
+        "short_reason": "The American Diabetes Association states that there is insufficient evidence to support the routine use of magnesium to improve glycemic control in people with diabetes.",
+        "citations": [
+          "nih_ods_magnesium::chunk_25"
+        ],
+        "confidence": 0.8
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_22",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7753656506538391
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_43",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7722417116165161
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_25",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7549208402633667
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_21",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7500304579734802
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_42",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7396363019943237
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "claim": "Omega-3 supplements reduce triglycerides by about 15%.",
+      "expected": "Supported",
+      "pred": "Supported",
+      "is_correct": true,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "Supported",
+        "short_reason": "Several studies found that omega-3 supplements reduce triglyceride levels by about 15% and lower the risk of cardiac death.",
+        "citations": [
+          "nih_ods_omega3::chunk_30",
+          "nih_ods_omega3::chunk_31"
+        ],
+        "confidence": 0.8
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_omega3::chunk_29",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7481915354728699
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_19",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7069982886314392
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_30",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.706364095211029
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_31",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6958223581314087
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_21",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.6797069311141968
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "claim": "Taking omega-3 guarantees no heart disease.",
+      "expected": "Unknown",
+      "pred": "NotSupported",
+      "is_correct": false,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "NotSupported",
+        "short_reason": "The evidence suggests that omega-3 supplements do not guarantee no heart disease, as they have been shown to reduce the risk of cardiac death and cardiovascular events in some studies but not all.",
+        "citations": [
+          "nih_ods_omega3::chunk_29",
+          "nih_ods_omega3::chunk_19"
+        ],
+        "confidence": 0.5
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_omega3::chunk_29",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7610520124435425
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_19",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7307224869728088
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_23",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7050573825836182
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_17",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.7019366025924683
+        },
+        {
+          "chunk_id": "nih_ods_omega3::chunk_26",
+          "doc_id": "nih_ods_omega3",
+          "score": 0.693832278251648
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "claim": "Magnesium is present in many foods and in supplements.",
+      "expected": "Supported",
+      "pred": "Supported",
+      "is_correct": true,
+      "citation_hit_rate": 1.0,
+      "flags": [],
+      "judge_obj": {
+        "verdict": "Supported",
+        "short_reason": "Magnesium is naturally present in many foods and can also be found in supplements.",
+        "citations": [
+          "nih_ods_magnesium::chunk_0",
+          "nih_ods_magnesium::chunk_6"
+        ],
+        "confidence": 1.0
+      },
+      "top_evidence": [
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_0",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.8067576885223389
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_5",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7866528034210205
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_6",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7767002582550049
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_35",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.763139009475708
+        },
+        {
+          "chunk_id": "nih_ods_magnesium::chunk_8",
+          "doc_id": "nih_ods_magnesium",
+          "score": 0.7602030038833618
+        }
+      ]
+    }
+  ]
+}

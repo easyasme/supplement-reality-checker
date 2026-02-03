@@ -1,0 +1,12 @@
+{"id":"t01","claim":"Omega-3 supplements can lower triglyceride levels.","expected":"Supported"}
+{"id":"t02","claim":"Omega-3 supplements cure depression.","expected":"Unknown"}
+{"id":"t03","claim":"Vitamin D prevents all cancers.","expected":"Unknown"}
+{"id":"t04","claim":"Vitamin D supports bone health.","expected":"Supported"}
+{"id":"t05","claim":"Magnesium supplement helps improve sleep quality and reduces anxiety.","expected":"Unknown"}
+{"id":"t06","claim":"Magnesium is involved in muscle and nerve function.","expected":"Supported"}
+{"id":"t07","claim":"Omega-3 supplements eliminate arrhythmia risk completely.","expected":"Unknown"}
+{"id":"t08","claim":"Vitamin D deficiency is linked to bone problems.","expected":"Supported"}
+{"id":"t09","claim":"Magnesium cures diabetes.","expected":"Unknown"}
+{"id":"t10","claim":"Omega-3 supplements reduce triglycerides by about 15%.","expected":"Supported"}
+{"id":"t11","claim":"Taking omega-3 guarantees no heart disease.","expected":"Unknown"}
+{"id":"t12","claim":"Magnesium is present in many foods and in supplements.","expected":"Supported"}
